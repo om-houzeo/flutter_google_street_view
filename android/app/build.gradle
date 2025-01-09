@@ -7,6 +7,7 @@ plugins {
 
 android {
     namespace = "zyz.flutter.plugin.flutter_google_street_view"
+    testNamespace "zyz.flutter.plugin.flutter_google_street_view"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
